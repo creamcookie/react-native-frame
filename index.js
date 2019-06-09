@@ -7,9 +7,12 @@ import fetch from "cross-fetch";
 import "abortcontroller-polyfill";
 
 import _KeyboardView from "./KeyboardView";
+import _ScrollViewK  from "./ScrollViewK";
+import _Preference   from "./Preference";
 
 export const KeyboardView = _KeyboardView;
-export const Preference = require("./Preference").default;
+export const ScrollViewK = _ScrollViewK;
+export const Preference = _Preference;
 
 const createParam = (formData, suffix, object) => {
 	if (object === null || object === undefined) {
@@ -249,9 +252,10 @@ export const applyCCS = (RootComponent, _config) => {
 
 
 export default {
-	applyCCS: applyCCS,
-	Preference: Preference,
-	KeyboardView: KeyboardView
+	applyCCS,
+	Preference,
+	KeyboardView,
+	ScrollViewK,
 };
 
 

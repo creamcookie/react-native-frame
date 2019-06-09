@@ -1,16 +1,18 @@
 {
-  "name": "react-native-ccs-frame",
-  "version": "1.0.8",
-  "description": "",
+  "name": "@creamcookie/react-native-framework",
+  "version": "1.0.0",
+  "description": "React-Native Framework for CCS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "unmountable-fetch",
+    "uikit"
   ],
-  "author": "",
-  "license": "",
+  "author": "Creamcookie,.LTD",
+  "license": "MIT",
   "dependencies": {
     "@react-native-community/async-storage": "^1.4.0",
     "abortcontroller-polyfill": "^1.3.0",
